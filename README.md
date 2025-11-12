@@ -1,5 +1,8 @@
 # Native File System adapter (ponyfill)
 
+> **IridiumOS Fork**  
+> FixCraft Inc. maintains this IridiumOS-specific fork of [jimmywarting/native-file-system-adapter](https://github.com/jimmywarting/native-file-system-adapter). Please use the upstream project for general-purpose work.
+
 What is this?
 
 This is a file system API that follows the [File System Access](https://wicg.github.io/file-system-access/) specification. Thanks to it we can have a unified way of handling data in all browsers and even in NodeJS & Deno in a more secure way.
