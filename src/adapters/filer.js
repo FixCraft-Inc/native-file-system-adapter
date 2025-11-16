@@ -2,9 +2,10 @@ import { errors } from '../util.js'
 
 import config from '../config.js'
 const join = window.Filer.path.join;
-const fs = window.anura.fs.promises;
+const desktop = window.iridium || window.anura;
+const fs = desktop.fs.promises;
 const Buffer = window.Filer.Buffer;
-const cbfs = window.anura.fs; // This stands for callback fs but I like to pretend it stands for cock and ball fs.
+const cbfs = desktop.fs; // This stands for callback fs but I like to pretend it stands for cock and ball fs.
 
 const {
   DOMException
